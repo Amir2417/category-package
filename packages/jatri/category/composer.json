@@ -1,0 +1,25 @@
+{
+    "name": "jatri/category",
+    "description": "laravel category package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jatri\\Category\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Jatri\\Category\\CategoryServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "amirsohel"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
